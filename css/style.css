@@ -6,12 +6,14 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/friends.css";
+@import "components/screen-header.css";
 
 /*Screens*/
 @import "screens/login.css";
 
 body {
   font-family: "Gowun Batang", serif;
+  height: 1000vh;
 }
 
 .welcome-header {
