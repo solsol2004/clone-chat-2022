@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Starry Chat</title>
+    <title>Friends-Crayon Chat</title>
   </head>
   <body>
     <div class="status-bar">
@@ -32,6 +32,53 @@
       </div>
     </header>
 
+    <a id="friends-display-link">
+      <i class="fas fa-info-circle"></i>
+      Friends' Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://play-lh.googleusercontent.com/GGI6zKHbyt8yYwhV4dF10E8-yv_Tj_eLmrBM95vTcfiJTQaOrxxJd3UY_JXw89XDRD8=w512"
+            class="user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Shin Chan</h4>
+            <!--<h6 class="user-component__subtitle">this text whatever</h6>-->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://i.pinimg.com/originals/02/5f/82/025f82efd1af3bba31a2d8b163481afd.jpg"
+              class="user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Channel
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>2</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
@@ -40,14 +87,18 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <span class="nav__notification">1</span>
-          <a class="nav__link" href="#"><i class="far fa-comment fa-lg"></i></a>
+          <span class="nav__notification badge">1</span>
+          <a class="nav__link" href="chats.html"
+            ><i class="far fa-comment fa-lg"></i
+          ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#"><i class="fas fa-search fa-lg"></i></a>
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-lg"></i
+          ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#"
+          <a class="nav__link" href="more.html"
             ><i class="fas fa-ellipsis-h fa-lg"></i
           ></a>
         </li>
