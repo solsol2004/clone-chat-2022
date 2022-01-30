@@ -11,6 +11,7 @@
 @import "components/point.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /*Screens*/
 @import "screens/login.css";
@@ -19,9 +20,11 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/chat-action.css";
 
 body {
   font-family: "Balsamiq Sans", cursive;
+  background-image: url("https://r1.community.samsung.com/t5/image/serverpage/image-id/1267535i26BDBB48E78AF9B6?v=v2");
 }
 
 .main-screen {
@@ -39,10 +42,21 @@ body {
 .welcome-header__title {
   margin-bottom: 20px;
   font-size: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.welcome-header__title i {
+  color: #f3f72c;
+  margin-left: 13px;
 }
 
 .welcome-header__text {
   width: 50%;
   opacity: 0.7;
   font-size: 13px;
+}
+
+input {
+  background-color: rgba(2, 63, 50, 0);
 }
