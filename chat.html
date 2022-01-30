@@ -40,7 +40,7 @@
 
     <main class="main-screen main-chat">
       <div class="chat__timestamp">Sunday, Jan 30, 2022</div>
-      <div class="message-row">
+      <div class="message-row message-row--sent">
         <img
           src="https://static.wikia.nocookie.net/crayonshinchan/images/d/d9/DK-18.jpg/revision/latest/scale-to-width-down/250?cb=20120821040652"
         />
@@ -48,7 +48,7 @@
           <span class="message__author">Toru</span>
           <div class="message__info">
             <span class="message__bubble">Hey Shin Chan!</span>
-            <span class="message__time">15:08</span>
+            <span class="message__time">15:00</span>
           </div>
         </div>
       </div>
@@ -61,6 +61,23 @@
         </div>
       </div>
     </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="   Write a message..." />
+        <i class="far fa-smile-wink fa-md"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your screen is too big :(</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/47c4228b8d.js"
